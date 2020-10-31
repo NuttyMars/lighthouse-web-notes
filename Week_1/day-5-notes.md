@@ -7,13 +7,18 @@
 > In a nutshell: A function that calls itself until it doesn't
 
 ```javascript
-function name(param) {      //declare the function
-  if (recursive case)       //recursive case = while this condition is true, the function will keep calling itself
-    name(do this action);   //the function calls itself with the action to perform
+//declare the function
+function name(param) {
+  //recursive case = while this condition is true, the function will keep calling itself
+  if (recursive case)
+    //the function calls itself with the action to perform
+    name(do this action);
+  else
+    //the function will stop executing when it reaches this
+    base case
 }
-
-name(value)                 //we call the function with a value outside of itself
-base case                   //not something that is explicitly specified, the function will stop executing when it reaches this
+//we call the function like any other function
+name(value) 
 ```
 > !! A function must have at least one recursive case and at least one base case in order to be recursive
 
