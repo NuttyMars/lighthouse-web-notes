@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha Tests</title>
+    <!-- We load Mocha’s CSS styles to give our test results nice formatting -->
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <!-- We create a div with the ID mocha. This is where the test results are inserted -->
+    <div id="mocha"></div>
+    <!-- We load Mocha and Chai. They are located in subfolders of the node_modules folder since we installed them via npm -->
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <!-- By calling mocha.setup, we make Mocha’s testing helpers available -->
+    <script>mocha.setup('bdd')</script>
+
+    <!-- load code you want to test here -->
+
+    <!-- load your test files here -->
+
+    <!-- we call mocha.run to run the tests. Make sure you call this after loading the source and test files. -->
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
