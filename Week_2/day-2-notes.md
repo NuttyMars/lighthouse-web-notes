@@ -1,38 +1,44 @@
-## Looping
+## Asyncronous flow
 
-`for...in` -> for use with objects; takes the keys, which in an array are the indexes
+`setTimeout(callback, time in ms)`
+  * will place the action 'on the backburner' and execute it after the main thread has finished
 
-`for...of` -> for use with arrays; takes the values
+`setInterval(callback, time in ms)`
+  * will execute every x(time in ms) seconds
+  * needs a clearInterval() in order to stop its execution
+    (it will run to infinity othewise)
 
+## fs = file system
 
-## Function best practices
+>= specific to Node; we can ask it to read and write files from our system
 
-### Naming conventions
-* avoid generic names like 'data', or 'run'
-* name your functions beginning with action words like createUser, or sendUserData
-* be consistent with your naming conventions
-* if you're joining an existing project, observe and adapt any existing conventions
-* use camelCasedNames
+! needs to be referenced
+`const fs = require('fs');`
 
-### Do's
-* Properly indent the function code
-* Functions should focus on a single task: returning a value or causing a side effect. 
-* Break your function into additional smaller functions if you find it doing two or more things
-  * One single task could be to compute and return a value
-  * Another single task could be to perform a side effect such as logging a message to the screen
-* It is ideal if functions try to avoid reading outer scope variables. If a function needs some information / data, then that data should instead be passed in as a parameter, making it available within the function's inner scope.
+## stdin / stdout
 
-## Falsey values
+>**stdin**
+>requires the user to input something so we can take an action
 
-<dl>
-  <dt>ZEN is a guy who would likes to have FUN always</dt>
-  <dd>Z - Zero</dd>
-  <dd>E - Empty String</dd>
-  <dd>N - Null</dd>
-  <dd>F - False</dd>
-  <dd>U - Undefined</dd>
-  <dd>N - NaN</dd>
+>**stdout**
+>can replace console.log, but can present encoding issues
 
->!! we can easily check for empty strings and arrays with the help of their falsey values
->  * an empty string is falsey => !string will be true
->  * an empty array's length will be 0 (falsey) => !array.length will be true
+## Events
+
+! *User events* will use stdin (input from user) to take an action (callback)
+! Not all event handling is due to user events
+
+## readline
+
+= a builtin module in Node that helps us read one line at a time
+
+>needs to be referenced: `const readline = require('readline');`
+
+>Once this code is invoked, the Node.js application will not terminate until the readline.Interface is closed because the interface waits for data to be received on the input stream.
+>
+>```javascript
+>const rl = readline.createInterface({
+>  input: process.stdin,
+>  output: process.stdout
+>});
+>```

@@ -1,20 +1,24 @@
-## Functions as objects
+## Promises
 
-* functions are first-class objects, meaning
-  * Functions can be stored in variables and passed around
-  * Functions can do everything that other objects can do (like having properties assigned to them)
+>give us a better way of controlling async flow
+>
+>`function().then() {}`
 
-## Callback functions
+## JSON
 
-! Functions are values and can be treated as such => they can be passed as arguments into function
-What this means is that we can pass *data* but also *behaviour* to a function
+JSON is built on two structures:
 
-! Can be written as arrow functions when inline
-!! Arrow functions cannot be named!
+  * A collection of name/value pairscd ../
+  
+  * An ordered list of values
 
-> Functions that take in callbacks are called **Higher Order Functions**
-#### Otherwise said
-> Higher-Order functions are any functions which operate on other functions (therefore include, but are not limited to functions that take in callbacks)
+!! Keys are always double quoted strings
+!! values can be numbers, strings or objects
 
-! .filter method filters the results we are looking for
-! .reject method is the opposite of filter (filters them out)
+> ### JSON.parse()
+>
+>Parse a string as JSON, optionally transform the produced value and its properties, and return the value.
+
+> ### JSON.stringify()
+>
+>Return a JSON string corresponding to the specified value, optionally including only certain properties or replacing property values in a user-defined manner.
