@@ -12,12 +12,19 @@ This repository contains all of the notes taken by [Natalia](https://github.com/
   * [Day 4](/Week_1/day-4-notes.md)
   * [Day 5](/Week_1/day-5-notes.md)
   * [Weekend](/Week_1/weekend-notes.md)
-
+------
 * [Week 2](/Week_2)
-  * [Day 1](/Week_2/day-2-notes.md)
+  * [Day 1](/Week_2/day-1-notes.md)
   * [Day 2](/Week_2/day-2-notes.md)
   * [Day 3](/Week_2/day-3-notes.md)
   * [Day 4](/Week_2/day-4-notes.md)
   * [Day 5](/Week_2/day-5-notes.md)
   * [Weekend](/Week_2/weekend-notes.md)
-
+------
+* [Week 3](/Week_3)
+  * [Day 1](/Week_3/day-1-notes.md)
+  * [Day 2](/Week_3/day-2-notes.md)
+  * [Day 3](/Week_3/day-3-notes.md)
+  * [Day 4](/Week_3/day-4-notes.md)
+  * [Day 5](/Week_3/day-5-notes.md)
+  * [Weekend](/Week_3/weekend-notes.md)
