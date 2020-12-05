@@ -45,10 +45,12 @@ This repository contains all of the notes taken by [Natalia](https://github.com/
   * [Day 5](/Week_5/day-5-notes.md)
   * [Weekend](/Week_5/weekend-notes.md)
     ------
-* [Week 6](/Week_6)
-  * [Day 1](/Week_6/day-1-notes.md)
-  * [Day 2](/Week_6/day-2-notes.md)
-  * [Day 3](/Week_6/day-3-notes.md)
-  * [Day 4](/Week_6/day-4-notes.md)
-  * [Day 5](/Week_6/day-5-notes.md)
-  * [Weekend](/Week_6/weekend-notes.md)
+    Week 6 - midterm week - head down, code code code! No notes or prisoners were taken during this time
+    ------
+* [Week 7](/Week_7)
+  * [Day 1](/Week_7/day-1-notes.md)
+  * [Day 2](/Week_7/day-2-notes.md)
+  * [Day 3](/Week_7/day-3-notes.md)
+  * [Day 4](/Week_7/day-4-notes.md)
+  * [Day 5](/Week_7/day-5-notes.md)
+  * [Weekend](/Week_7/weekend-notes.md)
